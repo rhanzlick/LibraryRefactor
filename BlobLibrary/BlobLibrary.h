@@ -1,4 +1,4 @@
-
+#pragma once
 #include "BlobExports.h"
 
 // This class is exported from the dll

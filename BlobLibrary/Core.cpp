@@ -19,3 +19,24 @@ CCore::CCore()
 {
     return;
 }
+
+/*
+ * Case Sensitive Implementation of startsWith()
+ * It checks if the string 'mainStr' starts with given string 'toMatch'
+ * https://thispointer.com/c-check-if-a-string-starts-with-an-another-given-string/
+ */
+std::string combinesString(const std::string& stringOne, const std::string& stringTwo)
+{
+    if (stringOne == "")
+    {
+        return stringTwo;
+    }
+    else if (stringTwo == "")
+    {
+        return stringOne;
+    }
+    else
+    {
+        return stringOne + stringTwo;
+    }
+}
